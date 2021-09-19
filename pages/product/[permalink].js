@@ -135,7 +135,7 @@ export default function Product() {
           </div>
           <Collapse isOpened={showShipping}>
             <div className="pb-4 font-color-medium">
-              Leveranstid 1-3 vardagar. Fraktkostnad på 59SEK inrikes tillkommer, utrikes 185SEK. För mer information gällande leverans och retur se våra <a href="/terms">villkor.</a>
+              Leveranstid 1-3 vardagar. Just nu fri leverans inom Sverige, utrikes tillkommer fraktkostnad på 185SEK. För mer information gällande leverans och retur se våra <a href="/terms">villkor.</a>
             </div>
           </Collapse>
           <div className="h-1 border-bottom border-color-black" />
