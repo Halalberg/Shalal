@@ -30,6 +30,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="stylesheet" href="https://unpkg.com/swiper@6.6.2/swiper-bundle.min.css" />
+      
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.shallowcrafts.com/">
 <meta property="og:title" content="Shallow Crafts | Webshop">
@@ -37,11 +38,6 @@ class MyDocument extends Document {
 <meta property="og:image" content="../../images/solros.png">
 
 
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://www.shallowcrafts.com/">
-<meta property="twitter:title" content="Shallow Crafts | Webshop">
-<meta property="twitter:description" content="Kreativitet för dig och ditt hem">
-<meta property="twitter:image" content="../../images/solros.png">
         </Head>
         <body>
           <Main />
