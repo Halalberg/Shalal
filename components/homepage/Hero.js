@@ -15,7 +15,7 @@ return (
       <div className='hero-container'>
 
             <video autoPlay="autoPlay" loop="loop" muted>
-                <source src="/framsidanriktigt.mp4" type="video/mp4" />
+                <source src="/landingvid.mp4" type="video/mp4" />
             </video>
          
               
