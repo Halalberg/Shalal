@@ -5,9 +5,6 @@ import { connect } from 'react-redux';
 import ProductCard from '../products/ProductCard';
 import Pixel from '../components/Pixel'
 
-  <div>
-    <Pixel name='FACEBOOK_PIXEL_1' />
-  </div>
 
 class Collections extends Component {
   constructor(props) {
