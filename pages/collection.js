@@ -4,6 +4,12 @@ import Root from '../components/common/Root';
 import Collections from '../components/collections/Collections';
 import SocialMedia from '../components/common/SocialMedia';
 import Footer from '../components/common/Footer';
+import Pixel from '../components/Pixel'
+
+export default () => 
+  <div>
+    <Pixel name='FACEBOOK_PIXEL_1' />
+  </div>
 
 const Home = () => (
   <Root>
