@@ -20,8 +20,8 @@ const Home = () => (
     <Footer />
   </Root>
 );
-export default () => 
+
+export default Home () => 
   <div>
     <Pixel name='FACEBOOK_PIXEL_1' />
   </div>
-export default Home;
