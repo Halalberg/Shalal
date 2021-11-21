@@ -6,12 +6,13 @@ import SocialMedia from '../components/common/SocialMedia';
 import Footer from '../components/common/Footer';
 import Pixel from '../components/Pixel'
 
-export default() => 
-  <div>
-    <Pixel name='FACEBOOK_PIXEL_1' />
-  </div>
+
+
 
 const Home = () => (
+    <div>
+    <Pixel name='FACEBOOK_PIXEL_1' />
+  </div>
   <Root>
     <Head>
       <title>Collection</title>
