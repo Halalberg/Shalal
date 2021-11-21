@@ -10,9 +10,6 @@ import Pixel from '../components/Pixel'
 
 
 const Home = () => (
-    <div>
-    <Pixel name='FACEBOOK_PIXEL_1' />
-  </div>
   <Root>
     <Head>
       <title>Collection</title>
