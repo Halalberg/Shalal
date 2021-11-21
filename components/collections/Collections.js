@@ -5,7 +5,9 @@ import { connect } from 'react-redux';
 import ProductCard from '../products/ProductCard';
 import Pixel from '../components/Pixel'
 
-
+  <div>
+    <Pixel name='FACEBOOK_PIXEL_1' />
+  </div>
 
 class Collections extends Component {
   constructor(props) {
@@ -157,8 +159,5 @@ class Collections extends Component {
   }
 }
 
-export default connect(state => state)(Collections)() => 
-  <div>
-    <Pixel name='FACEBOOK_PIXEL_1' />
-  </div>;
+export default connect(state => state)(Collections);
 
