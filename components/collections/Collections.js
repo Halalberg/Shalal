@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { connect } from 'react-redux';
 import ProductCard from '../products/ProductCard';
-import Pixel from '../components/Pixel'
+
 
 
 class Collections extends Component {
