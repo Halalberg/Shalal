@@ -8,15 +8,6 @@ import { loadStripe } from '@stripe/stripe-js';
 import { setCustomer } from '../store/actions/authenticateActions';
 import 'swiper/components/effect-fade/effect-fade.scss';
 
-useEffect(async () => {
-        const { default: ReactPixel } = await import('react-facebook-pixel');
-        ReactPixel.init(FB_PIXEL, null, {
-            autoConfig: true,
-            debug: true,
-          });
-        ReactPixel.pageView();
-        ReactPixel.track("ViewContent")
-    });
 
 const MyApp = ({Component, pageProps}) => {
 
